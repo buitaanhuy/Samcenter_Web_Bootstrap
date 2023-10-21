@@ -1,0 +1,136 @@
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .content__header{
+        margin-bottom: 20px;
+    }
+    
+    .card{
+        margin-bottom: 18px;
+    }
+
+    .header__nav{
+        margin: 20px 0;
+    }
+
+    .tab__content{
+        height: 2650px;
+        margin-bottom: 48px;
+    }
+    
+    .container__child{
+        margin: 24px ;
+    }
+
+    .value{
+        margin: 24px ;
+    }
+
+    .value__customer{
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .value__body{
+        margin-bottom: 18px;
+    }
+
+    .social{
+        font-size: 40px;
+        padding: 0px;
+    }
+
+    .footer{
+        margin-top: 48px;
+    }
+
+    .dropdown-menu{
+        background-color: #302e35;
+    }
+
+    .dropdown-menu a{
+        color: #fff;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .container__child{
+        margin: 24px 0;
+    }
+
+    .value{
+        margin: 0;
+    }
+
+    .content__header{
+        margin-bottom: 20px;
+    }
+
+    .card{
+        margin-bottom: 12px;
+    }
+
+    .header__nav{
+        margin: 20px 0;
+    }
+
+    .tab__content{
+        height: 2000px;
+        margin-bottom: 24px
+    }
+
+    .value__customer{
+        font-size: 24px;
+        margin: 24px 0 20px 0;
+    }
+
+    .value__body{
+        margin-bottom: 18px;
+    }
+
+    .footer{
+        margin: 0;
+        padding: 24px 0 12px 0;
+    }
+
+    .footer__content{
+        margin: 0;
+    }
+
+    .header__nav{
+        flex-direction: column;
+
+    }
+
+    .btn__check{
+    }
+    
+    .header__text{
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+
+    .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:nth-child(n+3), .btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+        border-radius: 4px;
+    }
+
+    .btn-primary{
+        width: 100%;
+    }
+
+    #button-addon2{
+        border-radius: 4px;
+        margin-top: 12px;
+    }
+
+    .dropdown-menu{
+        background-color: #302e35;
+    }
+
+    .dropdown-menu a{
+        color: #fff;
+    }
+    
+}

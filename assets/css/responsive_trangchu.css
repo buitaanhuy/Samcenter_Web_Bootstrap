@@ -22,9 +22,6 @@
         margin: 24px ;
     }
 
-    .value{
-        margin: 24px ;
-    }
 
     .value__customer{
         margin-bottom: 20px;
@@ -33,6 +30,7 @@
 
     .value__body{
         margin-bottom: 18px;
+        padding: 0;
     }
 
     .social{

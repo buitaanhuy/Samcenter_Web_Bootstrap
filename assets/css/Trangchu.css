@@ -151,7 +151,11 @@ html{
 }
 
 .container__child{
-    margin: 48px 109.909px ;
+    /* width: 100%; */
+}
+
+.content{
+    margin: 48px 0;
 }
 
 .card-title{
@@ -238,7 +242,7 @@ html{
 
 /* value container start */
 .value{
-    margin: 96px  100px 48px 100px;
+    margin: 96px  0 48px 0;
 
 }
 

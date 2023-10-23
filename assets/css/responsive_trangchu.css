@@ -18,9 +18,7 @@
         margin-bottom: 48px;
     }
     
-    .container__child{
-        margin: 24px ;
-    }
+    
 
 
     .value__customer{
@@ -75,7 +73,7 @@
     }
 
     .tab__content{
-        height: 2000px;
+        height: 1840px;
         margin-bottom: 24px
     }
 

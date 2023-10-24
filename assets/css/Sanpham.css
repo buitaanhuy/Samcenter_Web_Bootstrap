@@ -118,6 +118,10 @@ nav  {
     opacity: 0.6;
 }
 
+.tieude__content{
+    margin-bottom: 12px;
+}
+
 /* footer start */
 .footer{
     padding: 48px 0 0 0;

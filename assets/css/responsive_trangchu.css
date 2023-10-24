@@ -17,9 +17,6 @@
         height: 2650px;
         margin-bottom: 48px;
     }
-    
-    
-
 
     .value__customer{
         margin-bottom: 20px;
@@ -73,7 +70,7 @@
     }
 
     .tab__content{
-        height: 1840px;
+        height: 1820px;
         margin-bottom: 24px
     }
 
@@ -98,9 +95,6 @@
     .header__nav{
         flex-direction: column;
 
-    }
-
-    .btn__check{
     }
     
     .header__text{

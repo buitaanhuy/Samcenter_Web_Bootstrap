@@ -14,7 +14,7 @@
     }
 
     .tab__content{
-        height: 2650px;
+        height: 1440px;
         margin-bottom: 48px;
     }
 
@@ -44,6 +44,8 @@
     .dropdown-menu a{
         color: #fff;
     }
+
+    
 
     .subnav__user{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -78,7 +80,7 @@
     }
 
     .tab__content{
-        height: 1820px;
+        height: 1440px;
         margin-bottom: 24px
     }
 
@@ -130,6 +132,8 @@
     .dropdown-menu a{
         color: #fff;
     }
+
+    
     
     .subnav__user{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

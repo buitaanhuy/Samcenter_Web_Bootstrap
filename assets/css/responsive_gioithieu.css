@@ -51,6 +51,10 @@
         top: 30px;
         left: -100px;
     }
+
+    .contact{
+        margin: 0;
+    }
 }
 
 /* Mobile */
@@ -104,5 +108,9 @@
         position: absolute;
         top: 30px;
         left: -100px;
+    }
+
+    .contact{
+        margin: 0;
     }
 }

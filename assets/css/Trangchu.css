@@ -78,6 +78,10 @@ html{
     color: #fff;
 }
 
+.banner1, .banner2{
+    width: 100%;
+}
+
 .subnav{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: none;

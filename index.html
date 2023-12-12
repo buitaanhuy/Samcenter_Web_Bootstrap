@@ -42,16 +42,32 @@
                           <li><a class="dropdown-item" href="watch.html">Galaxy Watch Buds 2 Pro</a></li>
                       </ul>
                   </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="Thanhtoan.html">Liên hệ </a>
+                  </li> -->
                   <li class="nav-item">
-                      <a class="nav-link " aria-current="page" href="Thanhtoan.html">Thanh toán</a>
-                  </li>
+                    <a class="nav-link " aria-current="page" href="">Tin tức</a>
+                </li>
               </ul>
-              <ul class="nav-icons d-flex">
+              <ul class="nav-icons d-flex ">
                   <li class="icon-item"><a href=""><i class="fa-solid fa-magnifying-glass icon-item"></i></a></li>
                   <li class="icon-item"><a href=""><i class="fa-solid fa-cart-shopping icon-item"></i></a></li>
-                  <li class="icon-item"><a href=""><i class="fa-solid fa-user icon-item"></i></a></li>
+                  <li class="icon-item dropdown nav-item mobile__nav mobile__nav-1">
+                    <a>
+                      <i class="fa-solid fa-user icon-item"></i>
+                    </a>
+                    <ul class="dropdown-menu subnav__user nav__list nav__list-1" id="subnav"> 
+                      <li><a class="dropdown-item" href="signup.html">Tạo tài khoản ngay</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="">Ngôn ngữ
+                        <i class="fa-solid fa-caret-down icon__down" style="color: #ccc;"></i>
+                      </a></li>
+                  </ul>
+                  </li>
                   <li class="nav-item">
-                      <a class="nav-link " aria-current="page" href="#">Đăng nhập</a>
+                      <a class="nav-link " aria-current="page" href="#"><img src="./assets/img/vietnam.png" alt=""></a>
                   </li>
               </ul>
           </div>
@@ -127,27 +143,37 @@
     </div>
     <!-- Sản phẩm chính end -->
 
+    <!-- Banner 1 start -->
+    <div class="container container__child">
+      <div class="row content">
+        <div class="container__banner1">
+          <img src="./assets/img/banner1.png" alt="" class="banner1">
+        </div>
+      </div>
+    </div>
+    <!-- Banner 1 end -->
+    
     <!-- Menu sản phẩm start -->
     <div class="container container__child">
-      <div class="content">
+      <div class="content" style="">
         <div class="btn-group header__nav" role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-primary header__text" for="btnradio1">SẢN PHẨM MỚI</label>
+          <label class="btn btn-outline-primary header__text" for="btnradio1">ĐIỆN THOẠI GALAXY</label>
         
           <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-primary header__text" for="btnradio2">SẢN PHẨM NỔI BẬT</label>
+          <label class="btn btn-outline-primary header__text" for="btnradio2">GALAXY WATCH</label>
         
           <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-          <label class="btn btn-outline-primary header__text" for="btnradio3">SẢN PHẨM BÁN CHẠY</label>
+          <label class="btn btn-outline-primary header__text" for="btnradio3">GALAXY TAB AND BUDS</label>
         </div>
         <div class="tab__content">
-          <div class="row tabs active">
+          <div class="row tabs active" >
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
                 <img src="../assets/img/sp1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Sam Sung S23 ultra 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                   <p class="card__price">30.890.000VNĐ 
                     <span class="card__price__disable">40.990.000VNĐ</span>
                   </p>
@@ -165,20 +191,20 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp2.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/A54.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Z Flip5 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">19.900.000VNĐ 
-                    <span class="card__price__disable">25.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy A54 5G 128GB</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">8.830.000VNĐ 
+                    <span class="card__price__disable">10.490.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
-                    <i class="home-product-item__rating--gold fa-solid fa-star"></i>
-                    <span class="card__product__sold-out">219 đã bán</span>
+                    <!-- <i class="home-product-item__rating--gold fa-solid fa-star"></i> -->
+                    <span class="card__product__sold-out">108 đã bán</span>
                   </div>
                   <a href="#" class="btn btn-primary">Mua ngay</a>
                 </div>
@@ -189,7 +215,7 @@
                 <img src="../assets/img/sp3.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Galaxy Z Fold5 512GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                   <p class="card__price">33.990.000VNĐ 
                     <span class="card__price__disable">44.990.000VNĐ</span>
                   </p>
@@ -199,7 +225,7 @@
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
-                    <span class="card__product__sold-out">768 đã bán</span>
+                    <span class="card__product__sold-out">324 đã bán</span>
                   </div>
                   <a href="#" class="btn btn-primary">Mua ngay</a>
                 </div>
@@ -207,12 +233,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp5.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/M34.PNG" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Watch 5 Pro 45mm      </h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">8.490.000VNĐ 
-                    <span class="card__price__disable">10.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy M34 5G 128GB</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">7.120.000VNĐ 
+                    <span class="card__price__disable">7.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -230,12 +256,12 @@
           <div class="row tabs">
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp5.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/W5P.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Sam Sung S23 ultra 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">30.890.000VNĐ 
-                    <span class="card__price__disable">40.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Watch 5 Pro 45mm BT</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">5.900.000VNĐ 
+                    <span class="card__price__disable">11.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -251,12 +277,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp9.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/W5.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Z Flip5 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">19.900.000VNĐ 
-                    <span class="card__price__disable">25.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Watch 5 44mm LTE</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">5.600.000VNĐ 
+                    <span class="card__price__disable">7.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -272,12 +298,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp10.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/W6.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Z Fold5 512GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">33.990.000VNĐ 
-                    <span class="card__price__disable">44.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Watch 6</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">6.640.000VNĐ 
+                    <span class="card__price__disable">8.540.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -293,12 +319,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp11.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/W6C.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Watch 5 Pro 45mm      </h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">8.490.000VNĐ 
-                    <span class="card__price__disable">10.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Watch 6 Classic </h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">8.540.000VNĐ 
+                    <span class="card__price__disable">8.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -316,12 +342,12 @@
           <div class="row tabs">
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp13.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/tab1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Sam Sung S23 ultra 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">30.890.000VNĐ 
-                    <span class="card__price__disable">40.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Tab S9 Wi-Fi 256GB</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">16.490.000VNĐ 
+                    <span class="card__price__disable">21.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -337,12 +363,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp14.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/tab2.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Z Flip5 256GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">19.900.000VNĐ 
-                    <span class="card__price__disable">25.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Tab S9 FE + 5G</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">14.590.000VNĐ 
+                    <span class="card__price__disable">16.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -358,12 +384,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp15.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/sp11.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Z Fold5 512GB</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">33.990.000VNĐ 
-                    <span class="card__price__disable">44.990.000VNĐ</span>
+                  <h5 class="card-title">Galaxy Bud2 Pro</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">3.790.000VNĐ 
+                    <span class="card__price__disable">4.990.000VNĐ</span>
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -379,12 +405,12 @@
             </div>
             <div class="col-12 col-md-12 col-xl-3">
               <div class="card">
-                <img src="../assets/img/sp5.jpeg" class="card-img-top" alt="...">
+                <img src="../assets/img/sp13.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Galaxy Watch 5 Pro 45mm      </h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <p class="card__price">8.490.000VNĐ 
-                    <span class="card__price__disable">10.990.000VNĐ</span>
+                  <h5 class="card-title">Tai nghe có dây AKG, Type C</h5>
+                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <p class="card__price">550.000VNĐ 
+                    <!-- <span class="card__price__disable">10.990.000VNĐ</span> -->
                   </p>
                   <div class="card__product__rating">
                     <i class="home-product-item__rating--gold fa-solid fa-star"></i>
@@ -403,6 +429,16 @@
       </div>  
     </div>
     <!-- Menu sản phẩm end -->
+
+    <!-- Banner 2 start -->
+    <div class="container container__child">
+      <div class="row content">
+        <div class="container__banner1">
+          <img src="./assets/img/banner2.png" alt="" class="banner1">
+        </div>
+      </div>
+    </div>
+    <!-- Banner 2 end -->
 
     <!-- Đánh giá sản phẩm start -->
     
@@ -439,7 +475,7 @@
               <i class="home-product-item__rating--gold fa-solid fa-star"></i>
             </div>
             <p class="value__text">
-              Giao hàng nhanh, sản phẩm đúng như mong đợi, anh shipper dễ thương, tôi sẽ quay lại để ủng hộ shop, trân trọng cảm ơn shop nhiều.
+              Giao hàng nhanh, Galaxy bud2 pro là sản phẩm mà tôi hài lòng nhất từ trước đến nay. Anh shipper dễ thương, tôi sẽ quay lại để ủng hộ shop, trân trọng cảm ơn shop nhiều.
             </p>
             <p class="value__name">
               TGĐ Giang Nguyễn
@@ -473,40 +509,103 @@
     <!-- Bài viết mời nhất start -->
   <div class="container container__child">
     <div class="row content">
-      <h2 class="content__header">BÀI VIẾT MỚI NHẤT</h2>
-      <div class="col-12 col-md-12 col-xl-4 content__body">
-        <div class="card content__body">
-          <img src="../assets/img/bv1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Các tính năng mới vượt trội của s23 ultra so với s22 ultra và s22 pro</h5>
-            <p class="card__by__per">By Admin |Thứ tư |16:13 |18/10/2023</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content ...</p>
-            <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+      <h2 class="content__header" style="margin-bottom: -10px;">BÀI VIẾT MỚI NHẤT</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-12 col-md-12 col-xl-4 content__body">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cuối Năm Sale To, Giá Tốt Khỏi Lo - Ưu đãi lên đến 14 triệu tại Samcenter</h5>
+                    <p class="card__by__per">By Admin |Thứ tư |16:13 |04/12/2023</p>
+                    <p class="card-text">Mùa lễ hội đã đến, SamCenter rộn ràng sale sốc cuối năm với các sản phẩm cực hot ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-xl-4 content__body">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">"TRÊN TAY" GALAXY S24 SERIES đã có Samcenter lo</h5>
+                    <p class="card__by__per">By Admin |Thứ hai |09:57 |27/11/2023</p>
+                    <p class="card-text">CHIP MỚI SNAP 8 GEN 3, CAMERA ZOOM 150X, GIÁ SIÊU HỜI !!!  ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-xl-4 ">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Black Friday: Điện Thoại, Máy Tính Bảng & Tai Nghe Sale đến 41%</h5>
+                    <p class="card__by__per">By Admin |Thứ năm |14:23 |12/10/2023</p>
+                    <p class="card-text">Ngày hội mua sắm Black Friday đã đổ bộ tại SamCenter. Hàng loạt sản phẩm điện thoại, máy tính bảng, tai nghe, ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-12 col-md-12 col-xl-4 content__body">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Samcenter Tặng củ sạc 25W tại cửa hàng SamCenter 94 Quang Trung, Gò Vấp</h5>
+                    <p class="card__by__per">By Admin |Thứ tư |16:13 |18/10/2023</p>
+                    <p class="card-text">Chính thức, Store SamCenter ở địa chỉ 34 Quang Trung Gò Vấp chuyển sang địa chỉ mới tại số 94 Quang Trung ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-xl-4 content__body">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">"Tháng Tri Ân - Deal bất tận" Với ưu đãi lên đến 15 triệu tại Samcenter</h5>
+                    <p class="card__by__per">By Admin |Thứ hai |09:57 |17/10/2023</p>
+                    <p class="card-text">Mùa Lễ hội đã đến, từ ngày 01/11 - 30/11, SamCenter tri ân khách hàng với loạt chương trình khuyến mãi hấp dẫn ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-xl-4 ">
+                <div class="card content__body">
+                  <img src="../assets/img/tintuc6.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hướng dẫn 7 Mẹo Tiết Kiệm Pin Điện Thoại Samsung</h5>
+                    <p class="card__by__per">By Admin |Thứ năm |14:23 |12/09/2023</p>
+                    <p class="card-text">Trong thời đại công nghệ hiện nay, điện thoại đã trở thành một thiết bị không thể thiếu trong cuộc sống ...</p>
+                    <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <button class="carousel-control-prev"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " id="next__icon" aria-hidden="true"></span>
+          <span class="visually-hidden" >Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon " id="next__icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="col-12 col-md-12 col-xl-4 content__body">
-        <div class="card content__body">
-          <img src="../assets/img/sp1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Bài học cách sử dụng camera đẳng cấp của s23 ultra</h5>
-            <p class="card__by__per">By Admin |Thứ hai |09:57 |17/10/2023</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content ...</p>
-            <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-12 col-xl-4 ">
-        <div class="card content__body">
-          <img src="../assets/img/sp1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Hướng dẫn cách tận dụng S Pen cho công việc hiệu quả</h5>
-            <p class="card__by__per">By Admin |Thứ năm |14:23 |12/10/2023</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content ...</p>
-            <a href="#" class="btn btn-primary card__btn">XEM THÊM</a> 
-          </div>
-        </div>
-      </div>
+
+
+
+
+
+
+
+
+      
+      
     </div>
   </div>
 
@@ -603,13 +702,14 @@
     <!-- footer end -->
     <script >
       $(document).ready(function(){
-    $('.mobile__nav').click(function(){
-        $('.nav__list').slideToggle();
+    $('.mobile__nav-1').click(function(){
+        $('.nav__list-1').slideToggle();
     }
     )
     }
 )
     </script>
+    
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="../javascript/main.js"></script>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trang chủ</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="../assets/css/Login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="../assets/css/responsive_trangchu.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="main">
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span>
+          <img class="nav-img" src="https://samcenter.vn/images/thumbs/0003182_logo (2).png" alt="logo">
+        </span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars icon_bar"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Gioithieu.html">Giới thiệu</a>
+                  </li>
+                  <li class="nav-item dropdown mobile__nav" style="cursor: pointer;">
+                      <a class="nav-link">
+                      Sản phẩm
+                        <i class="fa-solid fa-caret-down icon__down"></i>
+                      </a>
+                      <ul class="dropdown-menu subnav nav__list" id="subnav "> 
+                          <li><a class="dropdown-item" href="watch.html">Galaxy Watch</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="phone.html">Samsung Galaxy </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="watch.html">Galaxy Watch Buds 2 Pro</a></li>
+                      </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="Thanhtoan.html">Liên hệ </a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="">Tin tức</a>
+                </li>
+              </ul>
+              <ul class="nav-icons d-flex ">
+                <li class="icon-item"><a href=""><i class="fa-solid fa-magnifying-glass icon-item"></i></a></li>
+                <li class="icon-item"><a href=""><i class="fa-solid fa-cart-shopping icon-item"></i></a></li>
+                <li class="icon-item dropdown nav-item mobile__nav mobile__nav-1">
+                  
+                    <i class="fa-solid fa-user icon-item"></i>
+                  
+                  <ul class="dropdown-menu subnav__user nav__list nav__list-1" id="subnav"> 
+                    <li><a class="dropdown-item" href="signup.html">Tạo tài khoản ngay</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="">Ngôn ngữ
+                      <i class="fa-solid fa-caret-down icon__down" style="color: #ccc;"></i>
+                    </a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#"><img src="./assets/img/vietnam.png" alt=""></a>
+                </li>
+            </ul>
+          </div>
+      </div>
+  </nav>
+  <!-- header end -->
+
+<!-- login start  -->
+  <div class="login container">
+    <div class="login_row row">
+      <div class="login_background  col-lg-8">
+        <img src="/assets/img/Login.png" class="container-fluid" height="100%" alt="">
+      </div>
+        <div class="login_form col-sm-12 col-lg-4 ps-4 pe-4">
+          <form>
+            <h1 class="card-title text-start pt-4 border-bottom border-2">LOGIN</h1>
+            
+            <div class="mb-3 pt-4">
+              <label for="exampleInputEmail1" class="form-label fw-medium font_18px">Email address:</label>
+              <input type="email" class="form-control border-secondary " required id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class=" form-label fw-medium font_18px">Password:</label>
+              <input type="password" class="form-control border-secondary" required id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+              <label class="fw-medium font_15px form-check-label text-black-50" for="exampleCheck1">
+              <input type="checkbox" class="font_15px form-check-input border-secondary" id="exampleCheck1">
+                
+                Remember password</label>
+              <a href="forget.html" class="fw-medium font_15px float-end link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Forget password?</a></p>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-dark fw-medium " type="button">Log In</button>
+            </div>
+
+            <div class="pt-2">
+              <span class="fw-medium font_15px">Need an account?</span>
+              <a href="signup.html" class="font_15px  fw-bolder  link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sign Up</a>
+
+            </div>
+          </form>         
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- login end  -->
+
+ <!-- footer start -->
+ <footer class="mt-0 bg-dark text-white footer">
+  <div class="container footer__content"> 
+      <div class="row text-start ">
+          <div class="order-2 col-lg-3 order-lg-1 mx-auto mt-3 pe-5 footer__Scamcenter"> 
+              <div> 
+                  <img src="../assets/img/Scam_logo.png" alt="SamCenter_Logo" width="185px" height="25px">
+                  <p class="pt-4 pb-2 about__text__disable" >
+                      Từ tháng 01/2022, SamCenter – chính thức là đại lý uỷ quyền SamSung tại Việt Nam.
+                      Trở thành đối tác với SamSung giúp SamCenter giữ vững cam kết luôn đem lại giá trị
+                      tốt nhất cho người dùng sản phẩm SamSung tại Việt Nam.
+                  </p>
+              </div>
+              <div class="social  container-fluid">
+                  <a href="https://www.facebook.com/samcenter.hesman" target="_blank"><img src="../assets/img/Facebook.png" alt="Facebook" width="50px" height="50px"></a>
+                  <a href="https://www.youtube.com/channel/UCEhyDvgWs_cK7ProomlZPJQ" target="_blank"><img src="../assets/img/Youtube.png" alt="youtube" width="50px" height="50px"></a>
+                  <a href="https://zalo.me/3808879171637096332" target="_blank"><img src="../assets/img/Zalo.png" alt="Zalo" width="50px" height="50px"></a>
+              </div>
+          </div> 
+          <div class="order-3 col-lg-2 order-lg-2 mx-auto mt-3 footer__about "> 
+              <h5 class="font-weight-bold footer__header">Về SamCenter</h5> 
+              <p class="pt-4 ">
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Tin tức</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text">Giới thiệu</a>
+              </p> 
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text">Phương thức thanh toán</a>
+              </p>
+          </div>  
+          <div class=" order-4 col-lg-2 order-lg-3 mx-auto mt-3 footer__support"> 
+              <h5 class="font-weight-bold footer__header">Hỗ trợ khách hàng</h5>
+              <p class="pt-4 ">
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Bảo mật thông tin</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Chính sách hoạt động chung</a>
+              </p> 
+              <p>
+                  <a href="#" class="text-white text-decoration-none  link-primary about__text ">Chính sách trả góp</a>
+              </p> 
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Chính sách giao hàng</a>
+              </p> 
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Chính sách bảo hành và đổi trả</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Hướng dẫn thanh toán</a> 
+              </p>
+          </div> 
+          <div class=" order-5 col-lg-2 order-lg-4  mx-auto mt-3 footer__contact"> 
+              <h5 class="font-weight-bold footer__header">Liên hệ</h5>
+              <p class="pt-4 ">
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Hệ thống cửa hàng</a>
+              </p>
+              <p>
+                  <a href="#" class="text-white text-decoration-none link-primary about__text ">Hotlie: 1800 4886 (8h00-22h00)</a>
+              </p> 
+              <p>
+                  <a href="mailto:lienhe@samcenter.vn" class="text-white text-decoration-none about__text">Email: lienhe@samcenter</a>
+              </p>
+          </div>  
+          <div class="order-1 col-lg-3 order-lg-5 mx-auto mt-3 footer__register"> 
+              <h5 class="font-weight-bold footer__header">Đăng ký nhận tin</h5>
+              <p class="pt-2 pb-2 about__text__disable">
+                  Nhập thông tin sản phẩm mới và chương trình khuyến mại của SamCenter
+              </p>
+              <div class="input-group mb-3">
+                  <input type="text" class="form-control border border-0 pb-2 pt-2 ps-3" placeholder="Email của bạn" aria-label="Recipient's username" aria-describedby="button-addon2" id="button-addon2">
+                  <button class="btn btn-primary form__btn" type="button" id="button-addon2"> <i class="fa-solid fa-paper-plane"></i>  Đăng ký</button>
+                </div>
+          </div> 
+      </div> 
+      <hr class="mb-4"> 
+      <div class="row align-items-center pb-3">
+          <div class="col-md-7">
+              <p class="text-white text-primary text-opacity-25 about__text ">© 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày 08/06/2016. <br>
+                  Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam <br>
+                  Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@samcenter.vn</p>
+          </div>
+          <div class="col-md-5 text-md-end">
+              <img src="../assets/img/Bocongthuong.png" alt="Bộ công thương" width="139px" height="42px">
+          </div>
+      </div>
+    </div> 
+  </footer>
+  <!-- footer end -->
+  <script >
+    $(document).ready(function(){
+  $('.mobile__nav-1').click(function(){
+      $('.nav__list-1').slideToggle();
+  }
+  )
+  }
+)
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="../javascript/main.js"></script>
+</body>
+</html>

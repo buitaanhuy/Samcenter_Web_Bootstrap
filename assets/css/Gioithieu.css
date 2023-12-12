@@ -60,6 +60,10 @@ html{
     display: block;
 }
 
+.nav-item:hover .subnav__user{
+    display: block;
+}
+
 .nav-icons{
     margin: 0;
     padding: 0;
@@ -81,6 +85,14 @@ html{
     top: 48px;
 }
 
+.subnav__user{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: -130px;
+}
+
 .subnav::after{
     content: "";
     width: 100%;
@@ -89,8 +101,16 @@ html{
     top: -20px;
 }
 
+.subnav__user::after{
+    content: "";
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+}
+
 .icon-item:hover{
-    opacity: 0.8;
+    color: #ccc;
 }
 /* header end */
 
@@ -164,6 +184,64 @@ html{
     margin-bottom: 30px;
     font-weight: bold; 
 }
+
+/* contact start */
+.text__heading{
+    text-align: center;
+    font-size: 28px;
+}
+.contact__section{
+    margin-bottom: 48px;
+    padding-top: 48px;
+    /* margin: 0 187.5px 48px 187.5px; */
+}
+
+.contact{
+    margin: 0 139.5px;
+}
+
+.contact__mail{
+    margin-bottom: 14px;
+}
+
+.contact__mail i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.mail__link, .phone__link{
+    text-decoration: none;
+}
+
+.contact__phone{
+    margin-bottom: 14px;
+}
+
+.contact__phone i{
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.contact__icon a{
+    text-decoration: none;
+    font-size: 26px;
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.contact__icon a:hover{
+    color: #5C636A;
+}
+
+.form-control:focus{
+    border-color: #999;
+    box-shadow: none;
+}
+
+.send__mess{
+    border-radius: 5px;
+}
+/* contact end */
 
 /* footer start */
 .footer{

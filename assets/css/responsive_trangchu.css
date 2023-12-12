@@ -44,6 +44,14 @@
     .dropdown-menu a{
         color: #fff;
     }
+
+    .subnav__user{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: -100px;
+    }
 }
 
 /* Mobile */
@@ -123,4 +131,11 @@
         color: #fff;
     }
     
+    .subnav__user{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: -100px;
+    }
 }

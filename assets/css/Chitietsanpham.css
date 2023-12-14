@@ -1,0 +1,213 @@
+.html {
+    font-size: 14px;
+}
+
+.container-body{
+    margin-top: 80px;
+}
+
+.content1 {
+    margin-bottom: 25px;
+}
+.banner{
+    border-bottom: 2px solid rgb(208, 204, 204);
+    padding-bottom: 5px;
+}
+.h3_text, .banner_icon, .banner_compare, .banner_compare>p {
+    
+    display: inline;
+    margin-right: 10px;
+}
+.star_color{
+    color: gold;
+}
+.banner_compare_custom{
+    border-radius: 20%;
+    border: 1.5px solid black;
+    padding: 3px;
+}
+.content1{
+    clear: both;
+}
+
+.text_chinhsach > p, .text_chinhsach > i{
+    display: inline;
+    padding-right: 5px;
+}
+.text_chinhsach{
+    background-color: rgb(249, 248, 248);
+    padding: 10px;
+    border: 5px solid white;
+}
+.color1{
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 50%;
+    float: left;
+}
+.color2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+}
+.color3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(233, 233, 184);
+    border-radius: 50%;
+    float: left;
+}
+.change-color div{
+    margin-right: 10px;
+}
+.price{
+    clear: both;
+}
+.price > h3 {
+    display: inline;
+}
+.price_giamgia{
+    display: inline;
+    border-radius: 8px;
+    background-color: rgb(247, 100, 26);
+    color: aliceblue;
+    padding: 4px 8px;
+    font-size: 16px;
+
+}
+.promotion_uudai{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.promotion_uudai > p{
+    display: inline;    
+}
+.promotion {
+    background-color: rgb(249, 248, 248);
+}
+.accordion-custom{
+    --bs-accordion-active-bg: rgb(122, 208, 41);
+    --bs-accordion-btn-bg: gb(122, 208, 41);
+}
+.btn-purchase{
+    margin-top: 15px;
+}
+.btn-purchase > button{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 16px;
+}
+.accordion-button--custom {
+    font-size: 20px;
+    color: rgb(97, 178, 216) !important;
+    --bs-accordion-active-bg: rgb(249, 248, 248);
+    --bs-accordion-btn-bg: rgb(249, 248, 248);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-color: rgb(97, 178, 216);
+    
+}
+
+.accordion-button--custom:hover {
+    color:black !important;
+}
+.tick-custom {
+    color: rgb(31, 194, 31);
+    margin-right: 10px;
+}
+.accordion-body > p{
+    font-size: 14px;
+}
+
+.left_in4 > h3, .left_evaluate > h3, .content2_right > h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.product {
+    border-right: 1px solid black;
+    padding-right: 5px;
+    margin: 0 auto;
+}
+.left_evaluate {
+    margin-top: 20px;
+}
+.picture1 {
+    margin: 0 auto;
+}
+.table-light {
+    background-color: rgb(249, 248, 248);
+}
+table {
+    font-size: 13px;
+}
+td{
+    padding: 5px 10px 5px 10px;
+}
+.item-star_color {
+    color: gold;
+    width: 12x; 
+    font-size: 10px;
+}
+.vote-item {
+    margin-bottom: 10px;
+}
+.VietDanhGia-text {
+    display: block;
+    width: 90%;
+    padding: 6px;
+    margin: 10px ;
+}
+.DanhGia {
+    margin: 0 5px;
+}
+.content2{
+    position: relative;
+}
+.content2_right {
+    position: sticky;
+    top: 0;
+}
+
+.Dang__anh{
+    text-decoration: none;
+    color: #000;
+}
+
+.content1_left, .content1_right, .content2_left, .content2_right{
+    padding: 10px 20px;
+}
+
+/* footer start */
+.footer{
+    margin-top: 48px;
+    padding: 48px 0 0 0;
+}
+
+
+.about__text:hover {
+    color: #007bff;
+    /* background-color: #007bff; */
+}
+
+.about__text{
+    font-size: 12px;
+    
+}
+
+.about__text__disable{
+    font-size: 12px;
+    text-align: justify
+}
+
+.form-control, .form__btn{
+    font-size: 12px;
+   
+}
+
+.footer__header{
+    font-size: 18px;
+}
+/* footer end */
